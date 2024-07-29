@@ -1,13 +1,24 @@
 .navbar-brand img{
-    /* width: 40px; */
     height: 40px;
+}
+.theme::before{
+    content: "\f042";
+    font-family: FontAwesome;
+    font-size: 25px;
+
 }
 .drop::after{
     content: "\f078";
     font-family:FontAwesome;
     font-size: 12px;
 }
-.default-color:hover{
+.default-color-h:hover{
+    color: rgb(9,184,80);
+}
+.buy{
+    background-color: rgb(9,184,80);
+}
+.default-color{
     color: rgb(9,184,80);
 }
 .dropdown:hover .dropdown-menu{
@@ -26,5 +37,155 @@
 .body{
     position: relative;
     bottom: 70px;
+}
+.badge{
+    background-color: rgb(232, 232, 232);
+    color: black;
+    font-weight: normal;
+    font-size: medium;
+    padding: 10px;
+}
+.large-heading{
+    font-weight: bolder;
+    font-size: 70px;
+}
+.input-group{
+    width: 80%;
+    height: 3rem;
+    margin-top: 40px;
+}
+.support::before{
+    content: "\f0ac";
+    font-family: FontAwesome;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(9,184,80);
+}
+.Awards::before{
+    content: "\f559";
+    font-family: FontAwesome;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(9,184,80);
+}
+.hero-right img{
+    width: 100%;
+}
+.hero-right img{
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+}
+.review-box{
+    margin-top: 30px;
+    background-color: white;
+    width: 250px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.5); 
+    padding: 10px;  
+    z-index: 1; 
+    border-radius: 8px;
+    position: relative;
+    left: 140px;
+}
+.stars{
+    display: flex;
+    margin-top: 15px;
+}
+.review i{
+    color: rgb(9,184,80);
+}
+.stars .fa-star{
+    background-color: rgb(9,184,80);
+    padding: 5px;
+    margin: 3px;
+    color: white;
+}
+.visitors{
+    color: white;
+    background-color: black;
+    width: 220px;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+    bottom: 140px;
+    right: 50px;
+}
+.images{
+    position: relative;
 
+}
+.images h5{
+    padding-right: 15px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+.images img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    z-index: 1;    
+}
+
+.image2{
+    right: 10px;
+}
+.image3{
+    right: 20px;
+}
+.image4{
+    right: 30px;
+}
+.image5{
+    right: 40px;
+}
+@media  (max-width:1199.5px) {
+    .body{
+        margin-top: 100px;
+        bottom: 0px;
+    }    
+}
+@media (max-width: 768px ) {
+    .support{
+        margin-top: 50px;
+    }
+    .hero-right img{
+        bottom: 0px;
+        
+    }
+    .visitors{
+        bottom: 40px;
+        right: 30px;
+        width: 220px;
+    }
+    .visitors h5{
+        font-size: 20px;
+    }
+
+}
+@media (max-width:576px) {
+    .support{
+        margin-top: 50px;
+    }
+    .visitors{
+        right: 10px;
+    }
+}
+@media (max-width:992px) {
+    .review-box{
+        left: 490px;
+    }
+}
+@media (max-width:1200px) and (min-width:991px) {
+    .review-box{
+        left: 110px;
+    }
 }
