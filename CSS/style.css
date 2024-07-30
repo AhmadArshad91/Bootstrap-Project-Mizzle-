@@ -44,6 +44,7 @@
     font-weight: normal;
     font-size: medium;
     padding: 10px;
+    text-align: center;
 }
 .large-heading{
     font-weight: bolder;
@@ -171,6 +172,150 @@
     }
 
 }
+.companies img{
+    width: 160px;
+    padding-right: 40px;
+    padding-top: 30px;
+    filter: grayscale(100%);
+}
+.companies img:hover{
+    filter: grayscale(0%);
+}
+.about-us{
+    margin-top: 50px;
+}
+.about-us img{
+    width: 100%; 
+}
+.design{
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+}
+.card-1{
+    text-align: center;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.card-2{
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(9, 184, 80);
+    color: white;
+    border-radius: 10px;
+}
+
+.card-1 h1{
+    font-weight: bolder;
+}
+.right-side h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.verified::before{
+    content: "\f058";
+    font-family: FontAwesome;
+    color:  rgb(9, 184, 80);
+    font-size: 15px;
+    padding-right: 5px;
+}
+.services{
+    margin-top: 80px;
+    background-color: rgb(32,33,36);
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.service-main{
+    text-align: center;
+}
+.services h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.service h4{
+    font-size: 27px;
+}
+.service p{
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+.badge-1{
+     background-color: rgb(41,42,45);
+     color: white;
+}
+.service{
+    background-color: rgb(41,42,45);
+    color: white;
+    border-radius: 5px;
+}
+.sect-top{
+    margin-top: 70px;
+}
+.service::before{
+    content: "";
+    font-family: FontAwesome;
+    background-color: white;
+    color:  rgb(9, 184, 80);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.5); 
+}
+.s-1::before{
+    content: "\f5fd"; 
+}
+.s-2::before{
+    content: "\f1b3";
+}
+.s-3::before{
+    content: "\f7c6";
+}
+.s-4::before{
+    content: "\f1b3";
+}
+.s-5::before{
+    content: "\f0e0";
+}
+.s-6::before{
+    content: "\f518";
+}
+.s-7::before{
+    content: "\f121";
+}
+.s-8::before{
+    content: "\f2d5";
+}
+.card-top{
+    text-decoration: none;
+    color: white;
+}
+.card-top:hover{
+    color:  rgb(9, 184, 80);
+
+}
+.know-more{
+    text-decoration: none;
+    color:  rgb(9, 184, 80);
+    margin-top: 20px;
+
+}
+.know-more::after{
+    content: "\f061";
+    font-family: FontAwesome;
+    padding-left: 10px;
+}
+.cont .col-2{
+    width: 250px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
 @media (max-width:576px) {
     .support{
         margin-top: 50px;
@@ -178,11 +323,25 @@
     .visitors{
         right: 10px;
     }
+    .companies img{
+        width: 110px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
+    .cont .col-2{
+        width: 90%;
+    }
+}
+@media (width:768px){
+    .review-box{
+        top: 90px;
+    }
 }
 @media (max-width:992px) {
     .review-box{
         left: 490px;
     }
+   
 }
 @media (max-width:1200px) and (min-width:991px) {
     .review-box{
