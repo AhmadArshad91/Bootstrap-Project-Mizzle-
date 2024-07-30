@@ -1,3 +1,4 @@
+
 .navbar-brand img{
     height: 40px;
 }
@@ -368,6 +369,7 @@
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 20px;
+    border-radius: 5px;
 }
 .plan-3 h3{
     font-size: 40px;
@@ -380,6 +382,179 @@
     background-color: white;
     color: black;
     width: 98%;
+}
+.star i{
+    color: rgb(247,195,46);
+}
+.clients h1,h5{
+    font-weight: bolder;
+}
+.reviewer img{
+    width: 40px;
+    border-radius: 10px;
+}
+.clients .right-part img{
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    bottom: 50px;
+}
+.first-review{
+    /* width: 300px */
+    background-color: rgb(32,33,36);
+    z-index: 1;
+    height: 50px;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    width:fit-content;
+    position: relative;
+    top:100px;
+    right: 70px;
+}
+.first-review::before{
+    content: " ";
+    background-image: url("../Images/reviewer-1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px; */
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+.sec-review{
+    background-color: white;
+    box-shadow: 0px 0px 1px ;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    position: relative;
+    bottom: 110px;
+    right: 50px;
+}
+.sec-review::before{
+    content: " ";
+    background-image: url("../Images/reviewer-1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px; */
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+.contact{
+    background-color: rgb(9, 184, 80);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+}
+.contact h1{
+    font-weight: bolder;
+}
+.contact .right{
+    text-align: end;
+}
+.call::before{
+    content: "\f58f";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+.time::before{
+    content: "\f017";
+    font-family: FontAwesome;
+    padding-right:5px;
+}
+.mail::before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+.footer{
+    color: white;
+    padding: 150px 0px 50px 0px;
+}
+.footer img{
+    width: 120px;
+}
+.box{
+    flex-direction: column;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    width: fit-content;
+}
+.box a:hover{
+    color: rgb(9, 184, 80) ;
+}
+.box .badge{
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+.box h5{
+    margin-bottom: 35px;
+}
+.appstore{
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.appstore img{
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: red;
+}
+.fa-tiktok:hover{
+    color: white;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.footer{
+    background-color: rgb(32,33,36);
+}
+.lower-footer{
+    margin-top: 50px;
+    padding-bottom: 0px;
+    border-top: 1px solid white;
+    padding-top: 40px;
+}
+.lower-footer .btn{
+    width: fit-content;
+    background-color: rgb(41,42,45);
+    color: white;
+    margin-left: 600px;
+    padding: 2px;
+}
+@media (max-width:992px) {
+    .review-box{
+        left: 490px;
+    }
+    .sec-review{
+        right: 20px;
+    }
+    .first-review{
+        right: 30px;
+    }
 }
 @media (max-width:576px) {
     .support{
@@ -406,19 +581,21 @@
     .plan-3{
         margin-top: 30px;
     }
+    .first-review{
+        right: 10px;
+    }
+    .sec-review{
+        right: 10px;
+    }
 }
 
 @media (width:768px){
     .review-box{
         top: 90px;
     }
+    
 }
-@media (max-width:992px) {
-    .review-box{
-        left: 490px;
-    }
-   
-}
+
 @media (max-width:1200px) and (min-width:991px) {
     .review-box{
         left: 110px;
@@ -431,4 +608,17 @@
     .price-group p{
         top: 20px;
     }
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }  
+    .foot-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+    } 
 }
