@@ -1,13 +1,25 @@
+
 .navbar-brand img{
-    /* width: 40px; */
     height: 40px;
+}
+.theme::before{
+    content: "\f042";
+    font-family: FontAwesome;
+    font-size: 25px;
+
 }
 .drop::after{
     content: "\f078";
     font-family:FontAwesome;
     font-size: 12px;
 }
-.default-color:hover{
+.default-color-h:hover{
+    color: rgb(9,184,80);
+}
+.buy{
+    background-color: rgb(9,184,80);
+}
+.default-color{
     color: rgb(9,184,80);
 }
 .dropdown:hover .dropdown-menu{
@@ -26,5 +38,587 @@
 .body{
     position: relative;
     bottom: 70px;
+}
+.badge{
+    background-color: rgb(232, 232, 232);
+    color: black;
+    font-weight: normal;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+}
+.large-heading{
+    font-weight: bolder;
+    font-size: 70px;
+}
+.input-group{
+    width: 80%;
+    height: 3rem;
+    margin-top: 40px;
+}
+.support::before{
+    content: "\f0ac";
+    font-family: FontAwesome;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(9,184,80);
+}
+.Awards::before{
+    content: "\f559";
+    font-family: FontAwesome;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(9,184,80);
+}
+.hero-right img{
+    width: 100%;
+}
+.hero-right img{
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+}
+.review-box{
+    margin-top: 30px;
+    background-color: white;
+    width: 250px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.5); 
+    padding: 10px;  
+    z-index: 1; 
+    border-radius: 8px;
+    position: relative;
+    left: 140px;
+}
+.stars{
+    display: flex;
+    margin-top: 15px;
+}
+.review i{
+    color: rgb(9,184,80);
+}
+.stars .fa-star{
+    background-color: rgb(9,184,80);
+    padding: 5px;
+    margin: 3px;
+    color: white;
+}
+.visitors{
+    color: white;
+    background-color: black;
+    width: 220px;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+    bottom: 140px;
+    right: 50px;
+}
+.images{
+    position: relative;
 
+}
+.images h5{
+    padding-right: 15px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+.images img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    z-index: 1;    
+}
+
+.image2{
+    right: 10px;
+}
+.image3{
+    right: 20px;
+}
+.image4{
+    right: 30px;
+}
+.image5{
+    right: 40px;
+}
+@media  (max-width:1199.5px) {
+    .body{
+        margin-top: 100px;
+        bottom: 0px;
+    }    
+}
+@media (max-width: 768px ) {
+    .support{
+        margin-top: 50px;
+    }
+    .hero-right img{
+        bottom: 0px;
+        
+    }
+    .visitors{
+        bottom: 40px;
+        right: 30px;
+        width: 220px;
+    }
+    .visitors h5{
+        font-size: 20px;
+    }
+
+}
+.companies img{
+    width: 160px;
+    padding-right: 40px;
+    padding-top: 30px;
+    filter: grayscale(100%);
+}
+.companies img:hover{
+    filter: grayscale(0%);
+}
+.about-us{
+    margin-top: 50px;
+}
+.about-us img{
+    width: 100%; 
+}
+.design{
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+}
+.card-1{
+    text-align: center;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.card-2{
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(9, 184, 80);
+    color: white;
+    border-radius: 10px;
+}
+
+.card-1 h1{
+    font-weight: bolder;
+}
+.right-side h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.verified::before{
+    content: "\f058";
+    font-family: FontAwesome;
+    color:  rgb(9, 184, 80);
+    font-size: 15px;
+    padding-right: 5px;
+}
+.services{
+    margin-top: 80px;
+    background-color: rgb(32,33,36);
+    color: white;
+}
+.default-padding{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.top{
+    text-align: center;
+}
+.top h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.service h4{
+    font-size: 27px;
+}
+.service p{
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+.badge-1{
+     background-color: rgb(41,42,45);
+     color: white;
+}
+.service{
+    background-color: rgb(41,42,45);
+    color: white;
+    border-radius: 5px;
+}
+.sect-top{
+    margin-top: 70px;
+}
+.service::before{
+    content: "";
+    font-family: FontAwesome;
+    background-color: white;
+    color:  rgb(9, 184, 80);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.5); 
+}
+.s-1::before{
+    content: "\f5fd"; 
+}
+.s-2::before{
+    content: "\f1b3";
+}
+.s-3::before{
+    content: "\f7c6";
+}
+.s-4::before{
+    content: "\f1b3";
+}
+.s-5::before{
+    content: "\f0e0";
+}
+.s-6::before{
+    content: "\f518";
+}
+.s-7::before{
+    content: "\f121";
+}
+.s-8::before{
+    content: "\f2d5";
+}
+.card-top{
+    text-decoration: none;
+    color: white;
+}
+.card-top:hover{
+    color:  rgb(9, 184, 80);
+
+}
+.know-more{
+    text-decoration: none;
+    color:  rgb(9, 184, 80);
+    margin-top: 20px;
+
+}
+.know-more::after{
+    content: "\f061";
+    font-family: FontAwesome;
+    padding-left: 10px;
+}
+.cont .col-2{
+    width: 250px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-1 img{
+    width:150px;
+}
+.plan-1{
+    display: flex;
+    flex-direction: column;
+}
+.badge-2{
+    margin-top: 10px;
+    width:fit-content;
+    font-size: 12px;
+    padding: 5px;
+}
+.price-group{
+    display: flex;
+    flex-direction: row;
+}
+.price-group h1{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.price-group p{
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+}
+.plan-2 li{
+    list-style: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.plan-2 li::before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 10px;
+    padding-right: 5px;
+    color:  rgb(35, 195, 99);
+
+}
+.plan-2 p{
+    color: rgb(169, 169, 169);
+}
+.plan-3{
+    background-color: rgba(47, 209, 111, 0.7);
+    color: white;
+    background-image: url("https://mizzle.webestica.com/assets/images/elements/decoration-pattern.svg") ;
+    background-size:150px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 20px;
+    border-radius: 5px;
+}
+.plan-3 h3{
+    font-size: 40px;
+}
+.button-group{
+    text-align: center;
+    padding-top: 140px;
+}
+.button-group a{
+    background-color: white;
+    color: black;
+    width: 98%;
+}
+.star i{
+    color: rgb(247,195,46);
+}
+.clients h1,h5{
+    font-weight: bolder;
+}
+.reviewer img{
+    width: 40px;
+    border-radius: 10px;
+}
+.clients .right-part img{
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    bottom: 50px;
+}
+.first-review{
+    /* width: 300px */
+    background-color: rgb(32,33,36);
+    z-index: 1;
+    height: 50px;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    width:fit-content;
+    position: relative;
+    top:100px;
+    right: 70px;
+}
+.first-review::before{
+    content: " ";
+    background-image: url("../Images/reviewer-1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px; */
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+.sec-review{
+    background-color: white;
+    box-shadow: 0px 0px 1px ;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    position: relative;
+    bottom: 110px;
+    right: 50px;
+}
+.sec-review::before{
+    content: " ";
+    background-image: url("../Images/reviewer-1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px; */
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+.contact{
+    background-color: rgb(9, 184, 80);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+}
+.contact h1{
+    font-weight: bolder;
+}
+.contact .right{
+    text-align: end;
+}
+.call::before{
+    content: "\f58f";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+.time::before{
+    content: "\f017";
+    font-family: FontAwesome;
+    padding-right:5px;
+}
+.mail::before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+.footer{
+    color: white;
+    padding: 150px 0px 50px 0px;
+}
+.footer img{
+    width: 120px;
+}
+.box{
+    flex-direction: column;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    width: fit-content;
+}
+.box a:hover{
+    color: rgb(9, 184, 80) ;
+}
+.box .badge{
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+.box h5{
+    margin-bottom: 35px;
+}
+.appstore{
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.appstore img{
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: red;
+}
+.fa-tiktok:hover{
+    color: white;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.footer{
+    background-color: rgb(32,33,36);
+}
+.lower-footer{
+    margin-top: 50px;
+    padding-bottom: 0px;
+    border-top: 1px solid white;
+    padding-top: 40px;
+}
+.lower-footer .btn{
+    width: fit-content;
+    background-color: rgb(41,42,45);
+    color: white;
+    margin-left: 600px;
+    padding: 2px;
+}
+@media (max-width:992px) {
+    .review-box{
+        left: 490px;
+    }
+    .sec-review{
+        right: 20px;
+    }
+    .first-review{
+        right: 30px;
+    }
+}
+@media (max-width:576px) {
+    .support{
+        margin-top: 50px;
+    }
+    .visitors{
+        right: 10px;
+    }
+    .companies img{
+        width: 110px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
+    .cont .col-2{
+        width: 90%;
+    }
+    .plan-1{
+        align-items: center;
+    }
+    .plan-2{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .plan-3{
+        margin-top: 30px;
+    }
+    .first-review{
+        right: 10px;
+    }
+    .sec-review{
+        right: 10px;
+    }
+}
+
+@media (width:768px){
+    .review-box{
+        top: 90px;
+    }
+    
+}
+
+@media (max-width:1200px) and (min-width:991px) {
+    .review-box{
+        left: 110px;
+    }
+}
+@media (max-width:768px) {
+    .price-group h1{
+        font-size: 50px;
+    }
+    .price-group p{
+        top: 20px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }  
+    .foot-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+    } 
 }
